@@ -64,6 +64,7 @@ if(currentpath[0] == "/"):
     
     
         path = currentpath
+        all = os.listdir(path)
         for x in all:
             progressbar(len(all),filecount)
             filecount=filecount+1
