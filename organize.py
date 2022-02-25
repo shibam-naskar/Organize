@@ -41,6 +41,23 @@ def progressbar(total,current):
 
 
 
+value = sys.argv
+if(len(value)>=2):
+
+    if(value[1] == "--current"):
+        currentpath = currentpath
+    elif(value[1]=="--help"):
+        print("""
+Usage: organize.py [options]
+
+Options:
+    --current : Use the current directory
+    --help    : Show this help message and exit
+    """)
+        sys.exit()
+else:
+    currentpath =input("Enter the path: ")
+
 
 
 if(currentpath[0] == "/"):
