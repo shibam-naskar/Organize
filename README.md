@@ -6,7 +6,7 @@ we always face the issue of un organized file and folders . but with ORGANIZE al
 
 
 # Example bellow
-<img src="" ><img/>
+<img src="https://user-images.githubusercontent.com/39475600/155830011-50bb057b-b8f2-4899-81f2-1b77d63a7b3e.gif" ><img/>
 
 # INSTALATION IN WINDOWS
 1 - download the setup file from here
@@ -35,4 +35,6 @@ nano .bashrc
 ```
 3 - add the folder path at the verry bottom of .bashrc file like this
  ```ruby
-expo
+export PATH=$PATH: PATH_TO_THE_EXECUTABLE_FILE_CONTAINING_FOLDER
+ ```
+
